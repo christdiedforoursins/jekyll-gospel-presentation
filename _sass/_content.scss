@@ -1,0 +1,37 @@
+/* Content styling */
+.content {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+    flex: 1; /* Allows content to take available space and push the footer down */
+}
+
+/* Paragraph spacing */
+.content p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+}
+
+/* Image and text wrapping */
+.content img.left {
+    float: left;
+    margin: 10px 20px 10px 0;
+    max-width: 45%;
+}
+
+.content img.right {
+    float: right;
+    margin: 10px 0 10px 20px;
+    max-width: 45%;
+}
+
+/* Clearfix */
+.content::after {
+    content: "";
+    display: table;
+    clear: both;
+}

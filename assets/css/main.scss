@@ -1,0 +1,10 @@
+---
+---
+$baseurl: "{{ site.baseurl }}";
+
+@import "../../_sass/base";
+@import "../../_sass/layout";
+@import "../../_sass/hero";
+@import "../../_sass/content";
+@import "../../_sass/footer";
+@import "../../_sass/responsive";

@@ -1,0 +1,7 @@
+title: "The Gospel"
+hero_banner_title: "The Gospel"
+footer_text: "© 2024 www.gospelresource.net. All rights reserved."
+contact_email: "mail@gospelresource.net"
+sass:
+  sass_dir: _sass
+  style: compressed

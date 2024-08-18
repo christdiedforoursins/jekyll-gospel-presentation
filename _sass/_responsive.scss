@@ -1,0 +1,25 @@
+/* Responsive styles */
+@media screen and (max-width: 1200px) {
+    .content {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        max-width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .content img.left, .content img.right {
+        float: none;
+        margin: 20px auto;
+        display: block;
+        max-width: 100%;
+    }
+
+    .hero-text {
+        font-size: 2em;
+    }
+}
