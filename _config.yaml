@@ -1,7 +1,7 @@
 title: "The Gospel"
 hero_banner_title: "The Gospel"
-footer_text: "© 2024 christdiedforoursins. All rights reserved."
-contact_email: "christdiedforoursins7@gmail.com"
+footer_text: "2024 christdiedforoursins."
+contact_email: "<email goes here>"
 sass:
   sass_dir: _sass
   style: compressed
