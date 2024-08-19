@@ -13,6 +13,9 @@ God requires perfect righteousness to enter Heaven, but since we all fall short 
 *“For I delivered unto you first of all that which I also received, how that Christ died for our sins according to the scriptures; And that he was buried, and that he rose again the third day according to the scriptures:.”*  
 — *1 Corinthians 15:3-4*
 
+*“For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.”*  
+— *John 3:16*
+
 ## Our Need for Salvation
 
 The Bible tells us that all have sinned and fall short of the glory of God:
@@ -20,14 +23,14 @@ The Bible tells us that all have sinned and fall short of the glory of God:
 *“For all have sinned, and come short of the glory of God;”*  
 — *Romans 3:23*
 
-Sin leads to condemnation, and its price is eternal death in a place known as hell:
+Sin leads to condemnation, and the payment for that sin is eternal death in a place known as hell:
 
 *“For the wages of sin is death; but the gift of God is eternal life through Jesus Christ our Lord.”*  
 — *Romans 6:23*
 
 ## How to Receive Eternal Life
 
-To have eternal life and be forgiven of sins, we need to place our faith in Jesus Christ. It is not about our own works, but about trusting in what Jesus has already done:
+To receive eternal life and be forgiven of sins, we need to place our faith in the sacrifice Jesus Christ made on the cross. It is not about our own works, but about trusting in what Jesus has already done:
 
 *“Believe on the Lord Jesus Christ, and thou shalt be saved,”*  
 — *Acts 16:31*
@@ -44,7 +47,7 @@ Once you place your faith in Christ, you are secure in your salvation. God promi
 *“For I am persuaded, that neither death, nor life, nor angels, nor principalities, nor powers, nor things present, nor things to come, Nor height, nor depth, nor any other creature, shall be able to separate us from the love of God, which is in Christ Jesus our Lord.”*  
 — *Romans 8:38-39*
 
-Your eternal life is secure in Jesus. Trust Him, and you will have everlasting life.
+Trust Christ and you will have everlasting life.
 
 ---
 
