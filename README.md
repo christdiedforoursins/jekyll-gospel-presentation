@@ -18,6 +18,10 @@ This project is a single-page gospel tract message built using Jekyll and hosted
 - **Simple and Responsive Design:** A clean, single-page layout optimized for mobile and desktop devices.
 - **Jekyll Powered:** Built using Jekyll for easy customization and templating.
 
+## Demo Site
+
+The demo site can be accessed [here](https://christdiedforoursins.github.io/jekyll-gospel-presentation/)
+
 ## Getting Started
 
 ### Prerequisites
