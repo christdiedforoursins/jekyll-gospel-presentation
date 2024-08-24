@@ -6,7 +6,7 @@ document.addEventListener("scroll", function() {
 
     // Adjust the fade-out effect of the hero image
     const fadeOutStart = 100;  // Start fading out the hero image
-    const fadeOutEnd = windowHeight / 2; // Complete the fade-out when halfway down the viewport
+    const fadeOutEnd = windowHeight; // Complete the fade-out at the end of the viewport
 
     if (scrollPosition > fadeOutEnd) {
         heroImage.style.opacity = 0;
@@ -17,7 +17,7 @@ document.addEventListener("scroll", function() {
     }
 
     // Adjust the fade-in effect of the content
-    const fadeInStart = fadeOutEnd / 2; // Start fading in the content earlier
+    const fadeInStart = fadeOutEnd / 16; // Start fading in the content earlier
     const fadeInEnd = fadeOutEnd + 100; // Ensure content is fully visible by the time the hero image is fully faded out
 
     if (scrollPosition > fadeInEnd) {
@@ -27,4 +27,4 @@ document.addEventListener("scroll", function() {
     } else {
         content.style.opacity = 0;
     }
-});
+});    
