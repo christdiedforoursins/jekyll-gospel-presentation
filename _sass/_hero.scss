@@ -5,7 +5,7 @@ body {
 
 /* Hero Image */
 .hero-banner {
-    background: url($baseurl + '/assets/images/hero-image.png') no-repeat center center fixed;
+    background: url($baseurl + '/assets/images/hero-image.jpg') no-repeat center center fixed;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -19,6 +19,11 @@ body {
     z-index: 1;
     opacity: 1;
     transition: opacity 0.5s ease-out;
+}
+
+.hero-content {
+    position: relative;
+    top: 25%;
 }
 
 .hero-banner h1  {
