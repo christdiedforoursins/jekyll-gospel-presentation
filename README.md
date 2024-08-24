@@ -1,6 +1,6 @@
-# Jekyll Single Page Gospel Message Template
+# Gospel Tract Message Template
 
-This project is a single-page gospel tract message built using Jekyll and hosted on GitHub Pages. The goal is to make the gospel message easily accessible online through a simple, responsive web page. 
+This project is a single-page gospel tract message built using Jekyll and hosted on GitHub Pages. The goal is to make the gospel message easily accessible online through a simple, responsive web page.
 
 ## Table of Contents
 
@@ -23,7 +23,7 @@ This project is a single-page gospel tract message built using Jekyll and hosted
 
 To work on this project, you'll need the following:
 
-- [Ruby](https://www.ruby-lang.org/en/documentation/installation/) (version 2.5.0 or higher)
+- [Ruby](https://www.ruby-lang.org/en/documentation/installation/) (version 3.5.0 or higher)
 - [Jekyll](https://jekyllrb.com/docs/installation/) (version 4.0 or higher)
 - A GitHub account
 
