@@ -2,18 +2,24 @@
 .content {
     padding: 20px;
     font-family: Arial, sans-serif;
-    max-width: 1000px;
+    max-width: 60%;
     margin: 0 auto;
     opacity: 0;
     transition: opacity 1s ease-in;
-    flex: 1; /* Allows content to take available space and push the footer down */
+    flex: 1; 
 }
 
-/* Paragraph spacing */
 .content p {
-    font-size: 1.2em;
+    font-size: calc(1em + 0.5vw);
     line-height: 1.5;
     margin-bottom: 1.5em;
+}
+.content h1 {
+    font-size: calc(1em + 2vw);
+}
+
+.content h2 {
+    font-size: calc(0.5em + 2vw);
 }
 
 /* Image and text wrapping */

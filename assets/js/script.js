@@ -1,5 +1,5 @@
 document.addEventListener("scroll", function() {
-    const heroImage = document.querySelector(".hero-image");
+    const heroImage = document.querySelector(".hero-banner");
     const content = document.querySelector(".content");
     const scrollPosition = window.scrollY;
     const windowHeight = window.innerHeight;
