@@ -83,4 +83,4 @@ Watch 'THE CLEAR GOSPEL IN 4 MINUTES (Dr. Ralph Yankee Arnold)'
 
 ---
 
-Feel free to reach out with any questions or to learn more about this message. Email us at [{{ site.contact_email }}](mailto:{{ site.contact_email }}). God bless you!
+Feel free to reach out with any questions or to learn more about this message. Email us at [{{ 'contact_email' | config_value }}](mailto:{{ 'contact_email' | config_value }}). God bless you!
