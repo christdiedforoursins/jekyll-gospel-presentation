@@ -9,7 +9,6 @@ This project is a single-page gospel tract message built using Jekyll and hosted
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-- [Deployment](#deployment)
 - [Contributing](#contributing)
 - [License](#license)
 
