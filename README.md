@@ -1,4 +1,4 @@
-# Gospel Tract Message Template
+# Jekyll Single Page Gospel Message Template
 
 This project is a single-page gospel tract message built using Jekyll and hosted on GitHub Pages. The goal is to make the gospel message easily accessible online through a simple, responsive web page. 
 
