@@ -26,6 +26,10 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+# Environment Variables 
+env:
+  ABC9C1CC_CONTACT_EMAIL=: gospelbestnewsever@gmail.com
+
 jobs:
   # Build job
   build:
