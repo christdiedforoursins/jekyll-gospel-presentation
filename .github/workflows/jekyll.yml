@@ -28,7 +28,7 @@ concurrency:
 
 # Environment Variables 
 env:
-  ABC9C1CC_CONTACT_EMAIL=: gospelbestnewsever@gmail.com
+  ABC9C1CC_CONTACT_EMAIL: gospelbestnewsever@gmail.com
 
 jobs:
   # Build job
