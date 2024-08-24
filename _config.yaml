@@ -2,7 +2,7 @@ title: "The Gospel"
 hero_banner_title: "The Gospel"
 hero_banner_subtitle: "Scroll down to learn more"
 footer_text: "Jekyll Gospel Message Template. Available for download <a href='https://github.com/christdiedforoursins/jekyll-gospel-presentation'>here</a>"
-contact_email: "gospelbestnewsever@gmail.com"
+contact_email: "youremailgoeshere"
 sass:
   sass_dir: _sass
   style: compressed
