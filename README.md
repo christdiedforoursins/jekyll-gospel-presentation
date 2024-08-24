@@ -1,4 +1,4 @@
-# Gospel Tract Message Template
+# Single Gospel Tract Message Jekyll Template
 
 This project is a single-page gospel tract message built using Jekyll and hosted on GitHub Pages. The goal is to make the gospel message easily accessible online through a simple, responsive web page. The project is designed to be easily deployable via a CI/CD pipeline using GitHub Actions.
 
@@ -71,7 +71,7 @@ This project is set up to automatically deploy to GitHub Pages using GitHub Acti
 
 ### CI/CD Pipeline
 
-This repository uses a GitHub Actions workflow to automatically build and deploy the site whenever changes are pushed to the `main` branch. The workflow file is located at `.github/workflows/deploy.yml`.
+This repository uses a GitHub Actions workflow to automatically build and deploy the site whenever changes are pushed to the `main` branch. The workflow file is located at `.github/workflows/jekyll.yml`.
 
 ## Contributing
 
