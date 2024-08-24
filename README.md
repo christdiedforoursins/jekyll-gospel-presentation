@@ -1,6 +1,6 @@
 # Gospel Tract Message Template
 
-This project is a single-page gospel tract message built using Jekyll and hosted on GitHub Pages. The goal is to make the gospel message easily accessible online through a simple, responsive web page. The project is designed to be easily deployable via a CI/CD pipeline using GitHub Actions.
+This project is a single-page gospel tract message built using Jekyll and hosted on GitHub Pages. The goal is to make the gospel message easily accessible online through a simple, responsive web page. 
 
 ## Table of Contents
 
@@ -17,7 +17,6 @@ This project is a single-page gospel tract message built using Jekyll and hosted
 
 - **Simple and Responsive Design:** A clean, single-page layout optimized for mobile and desktop devices.
 - **Jekyll Powered:** Built using Jekyll for easy customization and templating.
-- **CI/CD Integration:** Automatic deployment to GitHub Pages through GitHub Actions.
 
 ## Getting Started
 
@@ -56,23 +55,6 @@ To work on this project, you'll need the following:
 
 - **Adding New Sections:**
   - Create new markdown files in the `_includes/` directory and include them in the `single.html` as needed.
-
-## Deployment
-
-### GitHub Pages
-
-This project is set up to automatically deploy to GitHub Pages using GitHub Actions.
-
-1. **Push Changes:**
-    Simply push your changes to the `main` branch, and the site will be automatically built and deployed to `https://your-username.github.io/gospel-tract-template`.
-
-2. **Configure GitHub Pages:**
-    - Go to your repository settings on GitHub.
-    - Under "Pages", set the source to the `gh-pages` branch (created by the CI/CD pipeline).
-
-### CI/CD Pipeline
-
-This repository uses a GitHub Actions workflow to automatically build and deploy the site whenever changes are pushed to the `main` branch. The workflow file is located at `.github/workflows/deploy.yml`.
 
 ## Contributing
 
