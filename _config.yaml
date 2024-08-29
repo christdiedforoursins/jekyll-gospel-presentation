@@ -1,7 +1,7 @@
 title: "The Gospel"
 hero_banner_title: "The Gospel"
 hero_banner_subtitle: "Scroll down to learn more"
-footer_text: "Jekyll Gospel Message Template. Available for download <a href='https://github.com/christdiedforoursins/jekyll-gospel-presentation'>here</a>"
+footer_text: "This Gospel message is available for download <a href='https://github.com/christdiedforoursins/jekyll-gospel-presentation'>here</a> to host on your own site."
 contact_email: "<youremailgoeshere>"
 env_prefix: "abc9c1cc"  # Prefix for environment variables, currently used for email (example env variable: abc9c1cc_contact_email )
 sass:
