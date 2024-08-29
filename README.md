@@ -75,7 +75,7 @@ This project is set up to automatically deploy to GitHub Pages using GitHub Acti
 
 ### CI/CD Pipeline
 
-This repository uses a GitHub Actions workflow to automatically build and deploy the site whenever changes are pushed to the `main` branch. The workflow file is located at `.github/workflows/jekyll.yml`.
+This repository uses a GitHub Actions workflow to automatically build and deploy the site whenever changes are pushed to the `gh-pages-demo-site` branch. The workflow file is located at `.github/workflows/jekyll.yml`.
 
 ## Contributing
 
