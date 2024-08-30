@@ -1,11 +1,14 @@
 /* Footer styling */
-.footer p {
+.footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 20px 0; /* Increased padding for more space */
     position: relative; /* Ensure footer is positioned correctly */
-    font-size: 1em;
+}
+
+.footer p {
+    font-size: 0.5em;
 }
 
 .footer a {
