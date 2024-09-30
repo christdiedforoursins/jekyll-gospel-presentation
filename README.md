@@ -1,6 +1,6 @@
 # Single Gospel Tract Message Jekyll Template
 
-This project is a single-page gospel tract message built using Jekyll and hosted on GitHub Pages. The goal is to make the gospel message easily accessible online through a simple, responsive web page. The project is designed to be easily deployable via a CI/CD pipeline using GitHub Actions.
+This project is a single-page gospel tract message built using Jekyll and hosted on GitHub Pages. The goal is to make the gospel message easily accessible online through a simple, responsive web page. The project is designed to be easily deployable via GitHub Actions.
 
 ## Table of Contents
 
@@ -16,11 +16,14 @@ This project is a single-page gospel tract message built using Jekyll and hosted
 ## Features
 
 - **Simple and Responsive Design:** A clean, single-page layout optimized for mobile and desktop devices.
-- **Jekyll Powered:** Built using Jekyll for easy customization and templating.
+- **Built with Jekyll:** Built using Jekyll for easy customization and templating.
 
 ## Demo Site
 
-The demo site can be accessed [here](https://christdiedforoursins.github.io/jekyll-gospel-presentation/)
+The demo site can be accessed [here](https://www.gospelmessage.info/)
+
+<div><img src="https://github.com/user-attachments/assets/93942752-b7c6-415b-8618-0b4540af8ba3" width="300" height="300"></div>
+<div><img src="https://github.com/user-attachments/assets/aba30992-2190-45f1-ac2e-6d54ca6c679b" width="300" height="322"></div>
 
 ## Getting Started
 
@@ -28,8 +31,8 @@ The demo site can be accessed [here](https://christdiedforoursins.github.io/jeky
 
 To work on this project, you'll need the following:
 
-- [Ruby](https://www.ruby-lang.org/en/documentation/installation/) (version 3.5.0 or higher)
-- [Jekyll](https://jekyllrb.com/docs/installation/) (version 4.0 or higher)
+- [Ruby](https://www.ruby-lang.org/en/documentation/installation/) 
+- [Jekyll](https://jekyllrb.com/docs/installation/) 
 - A GitHub account
 
 ### Installation
@@ -57,9 +60,6 @@ To work on this project, you'll need the following:
   - Modify the content of `_includes/tract_message.md` to change the text of the gospel message.
   - Customize the design by editing the `_layouts/default.html` and `_sass/*.scss` files.
 
-- **Adding New Sections:**
-  - Create new markdown files in the `_includes/` directory and include them in the `single.html` as needed.
-
 ## Deployment
 
 ### GitHub Pages
@@ -67,15 +67,13 @@ To work on this project, you'll need the following:
 This project is set up to automatically deploy to GitHub Pages using GitHub Actions.
 
 1. **Push Changes:**
-    Simply push your changes to the `main` branch, and the site will be automatically built and deployed to `https://your-username.github.io/gospel-tract-template`.
+    Push changes to the `gh-pages-demo-site` branch, and the site will be automatically built and deployed to `https://your-username.github.io/gospel-tract-template`.
 
 2. **Configure GitHub Pages:**
     - Go to your repository settings on GitHub.
     - Under "Pages", set the source to the `gh-pages` branch (created by the CI/CD pipeline).
 
-### CI/CD Pipeline
-
-This repository uses a GitHub Actions workflow to automatically build and deploy the site whenever changes are pushed to the `gh-pages-demo-site` branch. The workflow file is located at `.github/workflows/jekyll.yml`.
+The workflow file is located at `.github/workflows/jekyll.yml`.
 
 ## Contributing
 
