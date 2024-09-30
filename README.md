@@ -21,8 +21,8 @@ This project is a single-page gospel tract message built using Jekyll and hosted
 ## Demo Site
 
 The demo site can be accessed [here](https://www.gospelmessage.info/)
-<img src="https://github.com/user-attachments/assets/93942752-b7c6-415b-8618-0b4540af8ba3)" width="150" height="150">
-<img src="https://github.com/user-attachments/aba30992-2190-45f1-ac2e-6d54ca6c679b)" width="150" height="161">
+<img src="https://github.com/user-attachments/assets/93942752-b7c6-415b-8618-0b4540af8ba3" width="150" height="150">
+<img src="https://github.com/user-attachments/aba30992-2190-45f1-ac2e-6d54ca6c679b" width="150" height="161">
 
 ## Getting Started
 
