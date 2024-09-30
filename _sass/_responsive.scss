@@ -1,11 +1,19 @@
 /* Responsive styles */
 @media screen and (max-width: 1200px) {
+    .body {
+        font-size: calc(1em + 0.5vw);
+    }
+
     .content {
         max-width: 90%;
     }
 }
 
 @media screen and (max-width: 768px) {
+    .body {
+        font-size: calc(0.9em + 1.0vw); 
+    }
+
     .content {
         max-width: 100%;
         margin-left: 20px;
@@ -13,7 +21,7 @@
     }
 
     .content p {
-        font-size: calc(0.9em + 1.0vw); /* Slightly smaller base size */
+        font-size: calc(0.9em + 1.0vw); 
     }
 
     .content img.left, .content img.right {
@@ -25,6 +33,10 @@
 }
 
 @media (max-width: 480px) {
+    .body {
+        font-size: calc(0.5em + 1.0vw);
+    }
+
     .content {
         max-width: 100%;
         margin-left: 5px;
@@ -32,6 +44,6 @@
     }
 
     .content p {
-        font-size: calc(0.25em + 1.0vw); /* Even smaller base size for very small screens */
+        font-size: calc(0.5em + 1.0vw);
     }
 }
