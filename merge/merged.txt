@@ -1,0 +1,611 @@
+// File: /shared/gospel-site/_config.yaml
+title: The Good News
+description: A simple explanation of the best news you'll ever hear.
+author: gospelmessage.info
+
+// File: /shared/gospel-site/_includes/footer.html
+<footer class="site-footer">
+    <div class="wrapper">
+        <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author }}. All rights reserved.</p>
+    </div>
+</footer>
+
+// File: /shared/gospel-site/_includes/header.html
+<header class="site-header">
+    <div class="wrapper">
+        <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+        <nav class="site-nav">
+            <a href="#god">God's Standard</a>
+            <a href="#problem">Our Problem</a>
+            <a href="#solution">God's Solution</a>
+            <a href="#response">Our Response</a>
+            <a href="#promise">The Promise</a>
+        </nav>
+    </div>
+</header>
+
+// File: /shared/gospel-site/_layouts/default.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+    {% include header.html %}
+
+    <main>
+        {{ content }}
+    </main>
+
+    {% include footer.html %}
+
+</body>
+</html>
+
+// File: /shared/gospel-site/_site/assets/css/style.css
+/* --- Variables --- */
+:root {
+    --primary-color: #0077c2; /* A nice, trustworthy blue */
+    --text-color: #333;
+    --background-color: #fdfdfd;
+    --light-gray: #f0f0f0;
+    --font-family: 'Lato', sans-serif;
+    --content-width: 800px;
+    --header-height: 60px;
+}
+
+/* --- Global & Reset --- */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--header-height); /* Offset for fixed header */
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-family);
+    line-height: 1.7;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* --- Typography --- */
+h1, h2, h3 {
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 3rem;
+    border-bottom: 2px solid var(--light-gray);
+    padding-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 1.2rem;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #00558b;
+    text-decoration: underline;
+}
+
+strong {
+    font-weight: 700;
+}
+
+blockquote {
+    border-left: 4px solid var(--primary-color);
+    margin-left: 0;
+    padding-left: 1.5rem;
+    font-style: italic;
+    color: #555;
+}
+
+/* --- Layout --- */
+.wrapper {
+    max-width: var(--content-width);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+main {
+    padding-top: var(--header-height);
+}
+
+section {
+    padding: 2rem 0;
+}
+
+/* --- Header --- */
+.site-header {
+    background-color: rgba(253, 253, 253, 0.95);
+    border-bottom: 1px solid var(--light-gray);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--header-height);
+    z-index: 100;
+    backdrop-filter: blur(5px);
+}
+
+.site-header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.site-title {
+    font-size: 1.2em;
+    font-weight: 700;
+    text-decoration: none;
+}
+.site-title:hover {
+    text-decoration: none;
+}
+
+.site-nav a {
+    margin-left: 1.5rem;
+    font-weight: 400;
+}
+
+/* --- Footer --- */
+.site-footer {
+    background-color: var(--text-color);
+    color: var(--background-color);
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 4rem;
+}
+
+.site-footer p {
+    margin: 0;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+/* --- Call to Action Section --- */
+.cta {
+    background-color: var(--light-gray);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.cta p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+/* --- Responsive Design --- */
+@media screen and (max-width: 768px) {
+    h1 { font-size: 2em; }
+    h2 { font-size: 1.7em; }
+
+    html {
+        scroll-padding-top: 100px; /* Adjust for taller mobile header */
+    }
+    main {
+        padding-top: 100px;
+    }
+    
+    .site-header {
+        height: auto;
+        min-height: var(--header-height);
+    }
+    .site-header .wrapper {
+        flex-direction: column;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    .site-title { margin-bottom: 0.5rem; }
+    .site-nav a { margin: 0 0.5rem; }
+}
+
+// File: /shared/gospel-site/_site/index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Best News Ever</title>
+    <meta name="description" content="A simple explanation of the gift of eternal life.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+    <div class="wrapper">
+        <a class="site-title" href="/">The Good News</a>
+        <nav class="site-nav">
+            <a href="#god">God's Standard</a>
+            <a href="#problem">Our Problem</a>
+            <a href="#solution">God's Solution</a>
+            <a href="#response">Our Response</a>
+            <a href="#promise">The Promise</a>
+        </nav>
+    </div>
+</header>
+
+    <main>
+        <div class="wrapper">
+
+<h1>The Most Important Question</h1>
+
+<p>If you were to die today, are you absolutely certain that you would go to heaven? The good news is that God has not left us guessing; He has made the answer clear and simple in His Word, the Bible. It's not about being a good person or following a set of rules—it's about receiving a free gift.</p>
+
+<section id="god">
+    <h2>1. God's Standard: Absolute Perfection</h2>
+    <p>The Bible tells us that God is perfectly holy and just. He is the standard of all that is good. Because He is a just judge, He must punish sin. He cannot simply overlook wrongdoing.</p>
+    <blockquote>
+        <p>"For the LORD is righteous, He loves righteousness..." - Psalm 11:7</p>
+    </blockquote>
+    <p>God's standard for entering His presence is the same as His character: absolute perfection. This creates a problem for every one of us.</p>
+</section>
+
+<section id="problem">
+    <h2>2. Our Problem: We Fall Short</h2>
+    <p>Every single one of us has failed to meet God's perfect standard. We have all sinned. Sin isn't just the worst things we can imagine; it's any thought, word, or action that falls short of God's perfect character. It's choosing our own way instead of His.</p>
+    <blockquote>
+        <p>"For all have sinned and fall short of the glory of God." - Romans 3:23</p>
+    </blockquote>
+    <p>Because God is just, there is a penalty for our sin: eternal separation from Him. No amount of good works, religious activity, or self-improvement can erase our sin or pay this infinite penalty.</p>
+    <blockquote>
+        <p>"For the wages of sin is death..." - Romans 6:23a</p>
+    </blockquote>
+</section>
+
+<section id="solution">
+    <h2>3. God's Solution: Jesus Christ</h2>
+    <p>Even though our sin separates us from Him, God loves us and doesn't want us to be separated from Him forever. So, He provided the one and only solution. He sent His Son, Jesus Christ, into the world.</p>
+    <p>Jesus, who is fully God, became a man and lived a perfect, sinless life—the life none of us could live. Then, He willingly died on the cross. On that cross, God the Father placed all of our sins—past, present, and future—onto Jesus. He paid our penalty in full.</p>
+    <blockquote>
+        <p>"God demonstrates His own love toward us, in that while we were still sinners, Christ died for us." - Romans 5:8</p>
+    </blockquote>
+    <p>Three days later, Jesus rose from the dead, proving that His payment was accepted and that He has ultimate victory over sin and death.</p>
+</section>
+
+<section id="response">
+    <h2>4. Our Response: Simply Believe</h2>
+    <p>How can a person receive this incredible gift of forgiveness and eternal life? The Bible makes it beautifully simple. It's not by working for it, earning it, or promising to change your life. It is received by one simple act: <strong>faith</strong>.</p>
+    <p>To have faith (or to believe) in Jesus means to be fully persuaded that He is who He claimed to be (the Son of God) and that He has done what He promised to do—paid for your sins and gives eternal life to all who simply trust in Him for it.</p>
+    <blockquote>
+        <p>"For God so loved the world, that He gave His only Son, that whoever <strong>believes in Him</strong> should not perish but have eternal life." - John 3:16</p>
+    </blockquote>
+    <p>A gift cannot be earned; it can only be accepted. The moment you place your trust in Jesus Christ alone for your eternal salvation, you have it.</p>
+</section>
+
+<section id="promise">
+    <h2>5. God's Promise: Eternal Security</h2>
+    <p>When you believe in Jesus for eternal life, you receive life that is truly <strong>eternal</strong>. It begins the moment you believe and it never ends. It cannot be lost or taken away. Your salvation is secure not because of your ability to hold on, but because of what Christ has already done and the unbreakable promise of God.</p>
+    <p>Your assurance of heaven is not based on your feelings or your performance, but on the unchanging promises found in God's Word.</p>
+    <blockquote>
+        <p>"And I give them eternal life, and they shall never perish; neither shall anyone snatch them out of My hand." - John 10:28</p>
+        <p>"Most assuredly, I say to you, he who believes in Me <strong>has</strong> everlasting life." - John 6:47</p>
+    </blockquote>
+    <p>Notice that Jesus says you "have" it right now, not that you "will have" it if you behave well. It is your present possession the moment you believe.</p>
+</section>
+
+<div class="cta">
+    <p>Have you trusted in Jesus Christ alone for the free gift of eternal life?</p>
+</div>
+
+<section id="next">
+    <h2>What Now?</h2>
+    <p>Receiving the gift of eternal life is the beginning of a personal relationship with God. While your actions and lifestyle do not keep you saved (your salvation is secure in Christ's finished work), you can now grow in your relationship with God. This happens as you read the Bible to learn more about Him, talk to Him in prayer, and find a local church that teaches the Bible clearly.</p>
+</section>
+
+</div>
+
+    </main>
+
+    <footer class="site-footer">
+    <div class="wrapper">
+        <p>&copy; 2025 gospelmessage.info. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
+
+// File: /shared/gospel-site/assets/css/style.css
+/* --- Variables --- */
+:root {
+    --primary-color: #0077c2; /* A nice, trustworthy blue */
+    --text-color: #333;
+    --background-color: #fdfdfd;
+    --light-gray: #f0f0f0;
+    --font-family: 'Lato', sans-serif;
+    --content-width: 800px;
+    --header-height: 60px;
+}
+
+/* --- Global & Reset --- */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--header-height); /* Offset for fixed header */
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-family);
+    line-height: 1.7;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* --- Typography --- */
+h1, h2, h3 {
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 3rem;
+    border-bottom: 2px solid var(--light-gray);
+    padding-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 1.2rem;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #00558b;
+    text-decoration: underline;
+}
+
+strong {
+    font-weight: 700;
+}
+
+blockquote {
+    border-left: 4px solid var(--primary-color);
+    margin-left: 0;
+    padding-left: 1.5rem;
+    font-style: italic;
+    color: #555;
+}
+
+/* --- Layout --- */
+.wrapper {
+    max-width: var(--content-width);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+main {
+    padding-top: var(--header-height);
+}
+
+section {
+    padding: 2rem 0;
+}
+
+/* --- Header --- */
+.site-header {
+    background-color: rgba(253, 253, 253, 0.95);
+    border-bottom: 1px solid var(--light-gray);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--header-height);
+    z-index: 100;
+    backdrop-filter: blur(5px);
+}
+
+.site-header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.site-title {
+    font-size: 1.2em;
+    font-weight: 700;
+    text-decoration: none;
+}
+.site-title:hover {
+    text-decoration: none;
+}
+
+.site-nav a {
+    margin-left: 1.5rem;
+    font-weight: 400;
+}
+
+/* --- Footer --- */
+.site-footer {
+    background-color: var(--text-color);
+    color: var(--background-color);
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 4rem;
+}
+
+.site-footer p {
+    margin: 0;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+/* --- Call to Action Section --- */
+.cta {
+    background-color: var(--light-gray);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.cta p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+/* --- Responsive Design --- */
+@media screen and (max-width: 768px) {
+    h1 { font-size: 2em; }
+    h2 { font-size: 1.7em; }
+
+    html {
+        scroll-padding-top: 100px; /* Adjust for taller mobile header */
+    }
+    main {
+        padding-top: 100px;
+    }
+    
+    .site-header {
+        height: auto;
+        min-height: var(--header-height);
+    }
+    .site-header .wrapper {
+        flex-direction: column;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    .site-title { margin-bottom: 0.5rem; }
+    .site-nav a { margin: 0 0.5rem; }
+}
+
+// File: /shared/gospel-site/index.md
+---
+layout: default
+title: The Best News Ever
+description: A simple explanation of the gift of eternal life.
+---
+
+<div class="wrapper">
+
+<h1>The Most Important Question</h1>
+
+<p>If you were to die today, are you absolutely certain that you would go to heaven? The good news is that God has not left us guessing; He has made the answer clear and simple in His Word, the Bible. It's not about being a good person or following a set of rules—it's about receiving a free gift.</p>
+
+<section id="god">
+    <h2>1. God's Standard: Absolute Perfection</h2>
+    <p>The Bible tells us that God is perfectly holy and just. He is the standard of all that is good. Because He is a just judge, He must punish sin. He cannot simply overlook wrongdoing.</p>
+    <blockquote>
+        <p>"For the LORD is righteous, He loves righteousness..." - Psalm 11:7</p>
+    </blockquote>
+    <p>God's standard for entering His presence is the same as His character: absolute perfection. This creates a problem for every one of us.</p>
+</section>
+
+<section id="problem">
+    <h2>2. Our Problem: We Fall Short</h2>
+    <p>Every single one of us has failed to meet God's perfect standard. We have all sinned. Sin isn't just the worst things we can imagine; it's any thought, word, or action that falls short of God's perfect character. It's choosing our own way instead of His.</p>
+    <blockquote>
+        <p>"For all have sinned and fall short of the glory of God." - Romans 3:23</p>
+    </blockquote>
+    <p>Because God is just, there is a penalty for our sin: eternal separation from Him. No amount of good works, religious activity, or self-improvement can erase our sin or pay this infinite penalty.</p>
+    <blockquote>
+        <p>"For the wages of sin is death..." - Romans 6:23a</p>
+    </blockquote>
+</section>
+
+<section id="solution">
+    <h2>3. God's Solution: Jesus Christ</h2>
+    <p>Even though our sin separates us from Him, God loves us and doesn't want us to be separated from Him forever. So, He provided the one and only solution. He sent His Son, Jesus Christ, into the world.</p>
+    <p>Jesus, who is fully God, became a man and lived a perfect, sinless life—the life none of us could live. Then, He willingly died on the cross. On that cross, God the Father placed all of our sins—past, present, and future—onto Jesus. He paid our penalty in full.</p>
+    <blockquote>
+        <p>"God demonstrates His own love toward us, in that while we were still sinners, Christ died for us." - Romans 5:8</p>
+    </blockquote>
+    <p>Three days later, Jesus rose from the dead, proving that His payment was accepted and that He has ultimate victory over sin and death.</p>
+</section>
+
+<section id="response">
+    <h2>4. Our Response: Simply Believe</h2>
+    <p>How can a person receive this incredible gift of forgiveness and eternal life? The Bible makes it beautifully simple. It's not by working for it, earning it, or promising to change your life. It is received by one simple act: <strong>faith</strong>.</p>
+    <p>To have faith (or to believe) in Jesus means to be fully persuaded that He is who He claimed to be (the Son of God) and that He has done what He promised to do—paid for your sins and gives eternal life to all who simply trust in Him for it.</p>
+    <blockquote>
+        <p>"For God so loved the world, that He gave His only Son, that whoever <strong>believes in Him</strong> should not perish but have eternal life." - John 3:16</p>
+    </blockquote>
+    <p>A gift cannot be earned; it can only be accepted. The moment you place your trust in Jesus Christ alone for your eternal salvation, you have it.</p>
+</section>
+
+<section id="promise">
+    <h2>5. God's Promise: Eternal Security</h2>
+    <p>When you believe in Jesus for eternal life, you receive life that is truly <strong>eternal</strong>. It begins the moment you believe and it never ends. It cannot be lost or taken away. Your salvation is secure not because of your ability to hold on, but because of what Christ has already done and the unbreakable promise of God.</p>
+    <p>Your assurance of heaven is not based on your feelings or your performance, but on the unchanging promises found in God's Word.</p>
+    <blockquote>
+        <p>"And I give them eternal life, and they shall never perish; neither shall anyone snatch them out of My hand." - John 10:28</p>
+        <p>"Most assuredly, I say to you, he who believes in Me <strong>has</strong> everlasting life." - John 6:47</p>
+    </blockquote>
+    <p>Notice that Jesus says you "have" it right now, not that you "will have" it if you behave well. It is your present possession the moment you believe.</p>
+</section>
+
+<div class="cta">
+    <p>Have you trusted in Jesus Christ alone for the free gift of eternal life?</p>
+</div>
+
+<section id="next">
+    <h2>What Now?</h2>
+    <p>Receiving the gift of eternal life is the beginning of a personal relationship with God. While your actions and lifestyle do not keep you saved (your salvation is secure in Christ's finished work), you can now grow in your relationship with God. This happens as you read the Bible to learn more about Him, talk to Him in prayer, and find a local church that teaches the Bible clearly.</p>
+</section>
+
+</div>
+
