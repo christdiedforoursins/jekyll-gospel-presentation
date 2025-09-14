@@ -12,13 +12,30 @@
 </head>
 <body>
 
-    {% include header.html %}
+<header class="site-header">
+    <div class="wrapper">
+        <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title | default: "The Best News Ever" }}</a>
+        <button class="menu-toggle" onclick="this.parentNode.parentNode.classList.toggle('active')">☰</button>
+        <nav class="site-nav">
+            <a href="#top" onclick="this.parentNode.parentNode.parentNode.classList.remove('active')">Gospel</a>
+            <a href="#why-this-matters" onclick="this.parentNode.parentNode.parentNode.classList.remove('active')">Why this matters</a>
+            <a href="#why-we-need-a-saviour" onclick="this.parentNode.parentNode.parentNode.classList.remove('active')">Need a Saviour</a>
+            <a href="#gods-plan-for-salvation-jesus-christ" onclick="this.parentNode.parentNode.parentNode.classList.remove('active')">Salvation</a>
+            <a href="#how-to-receive-eternal-life-believe-in-christ-alone" onclick="this.parentNode.parentNode.parentNode.classList.remove('active')">Believe</a>
+            <a href="#gods-promise-and-your-assurance" onclick="this.parentNode.parentNode.parentNode.classList.remove('active')">Assurance</a>
+            <a href="#what-about-you" onclick="this.parentNode.parentNode.parentNode.classList.remove('active')">What about you</a>
+            <a href="#whats-next" onclick="this.parentNode.parentNode.parentNode.classList.remove('active')">Next Steps</a>
+        </nav>
+    </div>
+</header>
 
-    <main>
+<main>
+    <div class="wrapper">
         {{ content }}
-    </main>
+    </div>
+</main>
 
-    {% include footer.html %}
+{% include footer.html %}
 
 </body>
 </html>
