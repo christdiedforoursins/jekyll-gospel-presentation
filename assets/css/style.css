@@ -95,9 +95,8 @@ blockquote {
 
 .site-header .wrapper {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
 }
 
 .site-nav a {
@@ -138,10 +137,12 @@ hr {
 }
 
 .site-title {
-    font-size: 1.5em;
+    font-size: 2.5em;
     font-weight: 700;
     text-decoration: none;
+    text-align: center;
 }
+
 .site-title:hover {
     text-decoration: none;
 }
@@ -149,7 +150,7 @@ hr {
 .site-nav {
     margin-top: 1rem; /* space below the title */
     margin-bottom: 0.5rem; /* space above main content */
-    font-size: ;
+    font-size: 0.9em;
 }
 .site-nav a {
     margin: 0 0.5rem;
@@ -160,11 +161,13 @@ hr {
 
 /* --- Footer --- */
 .site-footer {
-    background-color: var(--text-color);
-    color: var(--background-color);
+    background-color: var(--background-color);
+    color: var(--text-color);
     text-align: center;
     padding: 2rem 0;
     margin-top: 4rem;
+    border-top: 1px solid var(--light-gray); /* Adds a subtle line to separate it from the content */
+    font-size: 1.3em;
 }
 
 .site-footer p {
@@ -195,11 +198,15 @@ hr {
     
     .site-title { margin-bottom: 0.5rem; }
     .site-nav {
-        flex-direction: column;
         width: 100%;
         display: none;
-        max-height: calc(100vh - 5rem); /* Set a dynamic max-height */
+        max-height: calc(100vh - 5rem);
         overflow-y: auto;
+        position: absolute; /* Add this line */
+        top: 5rem; /* Set this to the header height */
+        left: 0;
+        z-index: 99; /* Ensures the menu is on top of other content */
+        background-color: var(--background-color); /* Add a background color to the menu */
     }
     .site-nav a {
         margin: 0.25rem 0; /* Change this line */

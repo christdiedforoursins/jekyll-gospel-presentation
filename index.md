@@ -3,8 +3,6 @@ layout: default
 title: The Best News Ever
 description: The gift of everlasting life.
 ---
-<div id="top"></div>
-
 Jesus promises everlasting life to anyone who believes on Him.  
 
 > "Verily, verily, I say unto you, He that believeth on me hath everlasting life." — John 6:47
