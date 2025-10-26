@@ -2,18 +2,22 @@
 layout: default
 title: The Best News Ever
 description: The gift of everlasting life.
+
 ---
+
 Jesus promises everlasting life to anyone who believes on Him.  
 
 > "Verily, verily, I say unto you, He that believeth on me hath everlasting life." — John 6:47
 
-**In simple terms: God loves you. You are a sinner. Jesus died for your sins. Believe in Him and receive eternal life as a free gift.**
+**In simple terms: God loves you. You are a sinner. Jesus died for your sins. Believe on Him and receive eternal life as a free gift.**
 
 ---
 
 ## Why this matters
 
-If your life ended today, do you know for certain where you would spend forever? It's one of life's biggest questions, and deep down, we all long for hope and assurance. God wants you to know the answer with confidence. The truth is not complicated, and it's not based on your performance, your lifestyle, or how "good" you have been. It's about a clear promise God has given us in the Bible, rooted in His profound love for you.
+At some point, everyone wonders what will happen when they die. What’s next? Where do we go, and what comes after this life?
+
+The Bible makes it clear that we have all sinned, and the result of sin is spiritual death—eternal separation from God. As terrifying as that sounds, God doesn’t want you to live in fear. He wants you to know with certainty that you can have everlasting life and spend eternity with Him in heaven.
 
 ---
 
@@ -23,7 +27,7 @@ If your life ended today, do you know for certain where you would spend forever?
 
 > “But your iniquities have separated between you and your God, and your sins have hid his face from you, that he will not hear.” — Isaiah 59:2
 
-**Our sin creates a separation.** You and I and every person on the earth, except Jesus Christ, have sinned. We've all broken God's perfect law through our thoughts, words, or actions. Sin is any thought, word, or deed that rebels against God's will. The Bible is clear that this sin has a consequence: spiritual death and separation from God.
+**Our sin creates a separation.** You and I and every person on the earth, have sinned. We've all broken God's perfect law through our thoughts, words, or actions. Sin is any thought, word, or deed that rebels against God's will. The Bible is clear that this sin has a consequence: spiritual death and separation from God.
 
 > “For all have sinned, and come short of the glory of God;” — Romans 3:23
 
@@ -37,7 +41,7 @@ If your life ended today, do you know for certain where you would spend forever?
 
 > “For He hath made Him to be sin for us, who knew no sin; that we might be made the righteousness of God in Him.” — 2 Corinthians 5:21
 
-**He paid sin’s penalty.** Jesus willingly went to the cross and died in our place. His death was a full and final payment for the sins of the entire world. This was not a random act; it was the ultimate demonstration of God's love and justice.
+**He paid sin’s penalty.** Jesus willingly went to the cross and died in our place. His death was a full and final payment for the sins of the entire world. This was not a random act; it was the ultimate demonstration of God's love toward us.
 
 > “But God commendeth His love toward us, in that, while we were yet sinners, Christ died for us.” — Romans 5:8
 
@@ -52,7 +56,9 @@ If your life ended today, do you know for certain where you would spend forever?
 Salvation is by grace and is through faith—not by works, promises, rituals, church attendance, lifestyle, or anything to do with yourself. To believe is to be persuaded that God guarantees you everlasting life because Christ died for your sins and rose again, and nothing else. This belief is more than just intellectual agreement; it is to **trust in** or **rely upon** Jesus Christ alone, to place your full trust in Jesus’s finished work on the cross to save you, rather than trusting in your own efforts or goodness.
 
 > “For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.” — John 3:16
+>
 > “For by grace are ye saved through faith; and that not of yourselves: it is the gift of God: Not of works, lest any man should boast.” — Ephesians 2:8–9
+>
 > “Believe on the Lord Jesus Christ, and thou shalt be saved.” — Acts 16:31
 
 ---
@@ -77,9 +83,11 @@ Have you ever personally trusted in the Lord Jesus Christ for everlasting life? 
 
 ## What’s next?
 
-Good works and spiritual growth do not earn or keep your salvation; they are the natural and grateful response to God’s free gift of grace. Here are some simple next steps to help you grow in your new relationship with Christ:
+Salvation is complete the moment you believe. From there, you can grow in your understanding and walk with Christ. Here are some simple ways to begin...
 
-- **Read the Gospel of John.** This book of the Bible was written so that you could know you have everlasting life (1 John 5:13). Reading it will help you better understand who Jesus is, what He has done, and the promises He has given you.
+- **Read the Gospel of John.** This book of the Bible was written so that you could know you have everlasting life (1 John 5:13). Reading it will help you better understand who Jesus is, what He has done, and the promises He has given you. 
+
+  You can read online [here](https://www.blueletterbible.org/kjv/jhn/1/1/s_998001).
 
 - **Talk to God in prayer.** You can now talk directly to God, who loves you as His own child. There are no special words to say. Just open your heart and talk to Him as you would a loving Father—with honesty and gratitude.
 
@@ -93,15 +101,18 @@ Good works and spiritual growth do not earn or keep your salvation; they are the
 
 - **Do I need to repent?**
   Repentance is a change of mind about the way you approach God. It is a decision to stop trusting in your own efforts—such as good works, rituals, behavior, or life style—and to turn and believe in Jesus Christ alone for everlasting life. You are saved the moment you believe.
+
   > "And they said, Believe on the Lord Jesus Christ, and thou shalt be saved, and thy house." — Acts 16:31
 
 - **What if I sin later?**
   Everlasting life is everlasting. God disciplines His children as a form of correction, but He will not revoke the life He promised.
+
   > "And I give unto them eternal life; and they shall never perish, neither shall any man pluck them out of my hand." — John 10:28
   > "Verily, verily, I say unto you, He that heareth my word, and believeth on him that sent me, hath everlasting life, and shall not come into condemnation; but is passed from death unto life." — John 5:24
 
 - **Don’t works prove I’m saved?**
   No. Your assurance of everlasting life rests on Jesus’ promise, not on your performance. While good works do not earn or keep your salvation, they are a powerful testimony of your faith. God works through you to show His light to the world and to help others, which glorifies Him and provides a witness to the Gospel.
+
   > "For we are his workmanship, created in Christ Jesus unto good works, which God hath before ordained that we should walk in them." — Ephesians 2:10
   > "Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven." — Matthew 5:16
 
@@ -109,6 +120,7 @@ Good works and spiritual growth do not earn or keep your salvation; they are the
   No. The Bible is clear that salvation is by grace through faith alone in Christ, not by any work or ritual. Baptism is an important public testimony for a believer, a symbolic act that identifies them with Christ’s death and resurrection.
 
   There are two types of baptism in the New Testament:
+
   1. **Water Baptism:** An outward, public symbol of a new believer's faith in Christ. It is an act of obedience for a person who is already saved.
   2. **Spirit Baptism:** The inward, spiritual work of God that takes place the moment a person believes. This is the Holy Spirit placing the believer "in Christ" and into the body of Christ. This is the baptism that saves, and it happens to every believer the moment they believe.
 
@@ -118,10 +130,15 @@ Good works and spiritual growth do not earn or keep your salvation; they are the
 
 - **Can someone lose salvation or stop believing?**
   The one who has believed *hath* (as in currently have) everlasting life. Doubts don’t undo God’s gift; return to His promise and grow in His Word.
+
   > “Verily, verily, I say unto you, He that believeth on me hath everlasting life.” — John 6:47
   > “And I give unto them eternal life; and they shall never perish, neither shall any man pluck them out of my hand.” — John 10:28
 
----
+## Gospel Presentation
+
+Here is a video gospel presentation by Yankee Arnold
+
+{% include youtube_embed.html id='Wh1VU-_OF98' %}
 
 ## The Best News Ever
 
