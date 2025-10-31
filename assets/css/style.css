@@ -216,8 +216,7 @@ hr {
     h2 { font-size: 1.7em; }
 
     .site-header .wrapper {
-        flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
     }
     
     .site-title { 
@@ -226,37 +225,7 @@ hr {
     }
 
     .site-nav {
-        width: 100%;
         display: none;
-        max-height: calc(100vh - 5rem);
-        overflow-y: auto;
-        position: absolute;
-        top: 4rem; /* Adjust to header height */
-        left: 0;
-        z-index: 99;
-        background-color: var(--background-color);
-        border-top: 1px solid var(--light-gray);
-        padding: 1rem 0;
-    }
-
-    .site-nav a {
-        margin: 0.5rem 0;
-        display: block;
-        text-align: center;
-    }
-
-    .site-header.active .site-nav {
-        display: block;
-    }
-
-    .menu-toggle {
-        display: block;
-        cursor: pointer;
-        font-size: 1.5rem;
-        background: none;
-        border: none;
-        padding: 0;
-        line-height: 1;
     }
 }
 
@@ -268,8 +237,5 @@ hr {
     .site-nav {
         margin-top: 0;
         margin-bottom: 0;
-    }
-    .menu-toggle { 
-        display: none; 
     }
 }
