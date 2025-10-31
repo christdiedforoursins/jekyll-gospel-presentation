@@ -1,12 +1,13 @@
 /* --- Variables --- */
 :root {
-    --primary-color: #0077c2; 
+    --primary-color: #4fa3a5;
     --text-color: #333;
-    --highlight-color: #7F7F7F;
-    --background-color: #fdfdfd;
-    --light-gray: #f0f0f0;
+    --highlight-color: #fef6e4;
+    --background-color: #fafafa;
+    --light-gray: #e8f4f8;
     --font-family: 'Lato', sans-serif;
     --content-width: 800px;
+    --heading-color: #1a2a3a;
 }
 
 *, *::before, *::after {
@@ -166,8 +167,26 @@ hr {
     text-align: center;
     padding: 2rem 0;
     margin-top: 4rem;
-    border-top: 1px solid var(--light-gray); /* Adds a subtle line to separate it from the content */
+    border-top: 1px solid var(--light-gray);
     font-size: 1.3em;
+}
+
+#backToTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 0.6em 0.8em;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: background 0.3s ease;
+}
+#backToTop:hover {
+    background: var(--heading-color);
 }
 
 .site-footer p {
@@ -195,36 +214,62 @@ hr {
 @media screen and (max-width: 768px) {
     h1 { font-size: 2em; }
     h2 { font-size: 1.7em; }
+
+    .site-header .wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+    }
     
-    .site-title { margin-bottom: 0.5rem; }
+    .site-title { 
+        margin-bottom: 0; 
+        font-size: 1.8em;
+    }
+
     .site-nav {
         width: 100%;
         display: none;
         max-height: calc(100vh - 5rem);
         overflow-y: auto;
-        position: absolute; /* Add this line */
-        top: 5rem; /* Set this to the header height */
+        position: absolute;
+        top: 4rem; /* Adjust to header height */
         left: 0;
-        z-index: 99; /* Ensures the menu is on top of other content */
-        background-color: var(--background-color); /* Add a background color to the menu */
+        z-index: 99;
+        background-color: var(--background-color);
+        border-top: 1px solid var(--light-gray);
+        padding: 1rem 0;
     }
+
     .site-nav a {
-        margin: 0.25rem 0; /* Change this line */
+        margin: 0.5rem 0;
         display: block;
         text-align: center;
     }
+
     .site-header.active .site-nav {
-        display: flex;
+        display: block;
     }
+
     .menu-toggle {
         display: block;
         cursor: pointer;
         font-size: 1.5rem;
         background: none;
         border: none;
+        padding: 0;
+        line-height: 1;
     }
 }
 
 @media screen and (min-width: 769px) {
-    .menu-toggle { display: none; }
+    .site-header .wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .site-nav {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .menu-toggle { 
+        display: none; 
+    }
 }
