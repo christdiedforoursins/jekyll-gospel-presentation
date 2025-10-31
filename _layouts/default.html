@@ -21,7 +21,6 @@
             <a href="#gods-plan-for-salvation-jesus-christ">The Solution</a>
             <a href="#how-to-receive-eternal-life-believe-in-christ-alone">Response</a>
         </nav>
-        <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
     </div>
 </header>
 
@@ -33,17 +32,5 @@
 
 {% include footer.html %}
 
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const menuToggle = document.querySelector('.menu-toggle');
-        const siteHeader = document.querySelector('.site-header');
-
-        if (menuToggle) {
-            menuToggle.addEventListener('click', function() {
-                siteHeader.classList.toggle('active');
-            });
-        }
-    });
-</script>
 </body>
 </html>
