@@ -16,7 +16,7 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 7rem;
+    scroll-padding-top: 5rem;
 }
 
 body {
@@ -149,7 +149,7 @@ hr {
 }
 
 .site-nav {
-    margin-top: 1rem; /* space below the title */
+    margin-top: 0.25rem; /* space below the title */
     margin-bottom: 0.5rem; /* space above main content */
     font-size: 0.9em;
 }
@@ -212,20 +212,34 @@ hr {
 
 /* --- Responsive Design --- */
 @media screen and (max-width: 768px) {
+    html {
+        scroll-padding-top: 8rem;
+    }
     h1 { font-size: 2em; }
     h2 { font-size: 1.7em; }
 
+    .site-header {
+        padding: 0.25rem 0;
+    }
+
     .site-header .wrapper {
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
     
     .site-title { 
-        margin-bottom: 0; 
-        font-size: 1.8em;
+        margin-bottom: 0.25rem; 
+        font-size: 1.5em;
     }
 
     .site-nav {
-        display: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 0.7em;
+    }
+    .site-nav a {
+        margin: 0.25rem;
     }
 }
 
@@ -238,4 +252,9 @@ hr {
         margin-top: 0;
         margin-bottom: 0;
     }
+}
+
+.site-nav .separator {
+    color: var(--primary-color);
+    margin: 0 0.25em;
 }
