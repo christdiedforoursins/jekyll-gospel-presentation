@@ -15,6 +15,13 @@
 <header class="site-header">
     <div class="wrapper">
         <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title | default: "The Best News Ever" }}</a>
+        <nav class="site-nav">
+            <a href="#why-this-matters">Intro</a>
+            <a href="#why-we-need-a-saviour">The Problem</a>
+            <a href="#gods-plan-for-salvation-jesus-christ">The Solution</a>
+            <a href="#how-to-receive-eternal-life-believe-in-christ-alone">Response</a>
+        </nav>
+        <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
     </div>
 </header>
 
@@ -26,5 +33,17 @@
 
 {% include footer.html %}
 
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuToggle = document.querySelector('.menu-toggle');
+        const siteHeader = document.querySelector('.site-header');
+
+        if (menuToggle) {
+            menuToggle.addEventListener('click', function() {
+                siteHeader.classList.toggle('active');
+            });
+        }
+    });
+</script>
 </body>
 </html>
