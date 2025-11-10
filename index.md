@@ -5,11 +5,11 @@ description: The gift of everlasting life.
 
 ---
 
-Jesus promises everlasting life to anyone who believes on Him.  
+Jesus promises everlasting life to anyone who believes on Him.
 
 > "Verily, verily, I say unto you, He that believeth on me hath everlasting life." — John 6:47
 
-**In simple terms: God loves you. You are a sinner. Jesus died for your sins. Believe on Him and receive eternal life as a free gift.**
+**In simple terms: God loves you. You have sinned. Jesus paid the penalty for your sin. Believe in Him and receive everlasting life as a free gift.**
 
 ---
 
@@ -27,7 +27,7 @@ The Bible makes it clear that we have all sinned, and the result of sin is spiri
 
 > “But your iniquities have separated between you and your God, and your sins have hid his face from you, that he will not hear.” — Isaiah 59:2
 
-**Our sin creates a separation.** You and I and every person on the earth, have sinned. We've all broken God's perfect law through our thoughts, words, or actions. Sin is any thought, word, or deed that rebels against God's will. The Bible is clear that this sin has a consequence: spiritual death and separation from God.
+**Our sin creates a separation.** Every person on earth has sinned and broken God's perfect law through their thoughts, words, or actions. Sin is any thought, word, or deed that rebels against God's will. The Bible is clear that this sin has a consequence: spiritual death and separation from God.
 
 > “For all have sinned, and come short of the glory of God;” — Romans 3:23
 
@@ -53,7 +53,7 @@ The Bible makes it clear that we have all sinned, and the result of sin is spiri
 
 ## How to receive eternal life: Believe in Christ alone
 
-Salvation is by grace and is through faith—not by works, promises, rituals, church attendance, lifestyle, or anything to do with yourself. To believe is to be persuaded that God guarantees you everlasting life because Christ died for your sins and rose again, and nothing else. This belief is more than just intellectual agreement; it is to **trust in** or **rely upon** Jesus Christ alone, to place your full trust in Jesus’s finished work on the cross to save you, rather than trusting in your own efforts or goodness.
+Salvation is by grace and is through faith—not by works, promises, rituals, church attendance, lifestyle, or anything to do with yourself. To believe is to be persuaded that God **guarantees** you everlasting life because Christ died for your sins and rose again, and nothing else. This is more than intellectual agreement; it is to **trust in** or **rely upon** Jesus Christ alone, placing your full trust in His finished work on the cross, rather than your own efforts or goodness.
 
 > “For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.” — John 3:16
 >
@@ -85,9 +85,9 @@ Have you ever personally trusted in the Lord Jesus Christ for everlasting life? 
 
 Salvation is complete the moment you believe. From there, you can grow in your understanding and walk with Christ. Here are some simple ways to begin...
 
-- **Read the Gospel of John.** This book of the Bible was written so that you could know you have everlasting life (1 John 5:13). Reading it will help you better understand who Jesus is, what He has done, and the promises He has given you. 
+- **Read the Gospel of John.** This book of the Bible was written so that you could know you have everlasting life (1 John 5:13). Reading it will help you better understand who Jesus is, what He has done, and the promises He has given you.
 
-  You can read online [here](https://www.blueletterbible.org/kjv/jhn/1/1/s_998001).
+  You can read online [here](https://www.kingjamesbibleonline.org/John-Chapter-1/).
 
 - **Talk to God in prayer.** You can now talk directly to God, who loves you as His own child. There are no special words to say. Just open your heart and talk to Him as you would a loving Father—with honesty and gratitude.
 
