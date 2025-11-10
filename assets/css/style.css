@@ -100,16 +100,35 @@ blockquote {
     align-items: center;
 }
 
-.site-nav a {
-    margin: 0 0.75rem;
-    font-weight: 500;
-}
-
+/* Updated Navigation Styling */
 .site-nav {
     display: flex;
     flex-wrap: wrap;
-    font-size: 0.8em;
+    font-size: 0.9em;
+    margin-top: 0.25rem; /* space below the title */
+    margin-bottom: 0.5rem; /* space above main content */
 }
+.site-nav a {
+    margin: 0;
+    font-weight: 400;
+    display: inline-block;
+    padding: 0.125rem 0;
+    /* Base padding for left/right spacing */
+    padding-left: 0.75rem; 
+    padding-right: 0.75rem;
+}
+/* Add separator border between links (except the last one) */
+.site-nav a:not(:last-child) {
+    border-right: 1px solid var(--light-gray);
+    padding-right: 1.5rem; /* Increased padding right to make room for border and space */
+}
+.site-nav a:not(:first-child) {
+    padding-left: 0.75rem;
+}
+.site-nav a:first-child {
+    padding-left: 0; /* Remove padding left on the first item */
+}
+
 
 /* --- Layout --- */
 .wrapper {
@@ -148,17 +167,6 @@ hr {
     text-decoration: none;
 }
 
-.site-nav {
-    margin-top: 0.25rem; /* space below the title */
-    margin-bottom: 0.5rem; /* space above main content */
-    font-size: 0.9em;
-}
-.site-nav a {
-    margin: 0 0.5rem;
-    font-weight: 400;
-    display: inline-block;
-    padding: 0.125rem 0;
-}
 
 /* --- Footer --- */
 .site-footer {
@@ -236,10 +244,20 @@ hr {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        font-size: 0.7em;
+        font-size: 0.8em; /* Slightly larger, more readable */
+        padding-top: 0.25rem; /* Add a little vertical padding */
     }
     .site-nav a {
-        margin: 0.25rem;
+        margin: 0 0.25rem;
+        padding: 0.25rem 0.25rem; /* Better tap target & consistent spacing */
+    }
+    /* Remove the vertical separator on mobile to make links fit better */
+    .site-nav a:not(:last-child) {
+        border-right: none;
+        padding-right: 0.25rem;
+    }
+    .site-nav a:not(:first-child) {
+        padding-left: 0.25rem;
     }
 }
 
@@ -252,9 +270,4 @@ hr {
         margin-top: 0;
         margin-bottom: 0;
     }
-}
-
-.site-nav .separator {
-    color: var(--primary-color);
-    margin: 0 0.25em;
 }
