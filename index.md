@@ -9,7 +9,7 @@ Jesus promises everlasting life to anyone who believes on Him.
 
 > "Verily, verily, I say unto you, He that believeth on me hath everlasting life." — John 6:47
 
-**In simple terms: God loves you. You have sinned. Jesus paid the penalty for your sin. Believe in Him and receive everlasting life as a free gift.**
+**The Gospel in simple terms: God loves you. You have sinned. Jesus paid the penalty for your sin. Believe in Him and receive everlasting life as a free gift.**
 
 ---
 
@@ -81,19 +81,21 @@ Have you ever personally trusted in the Lord Jesus Christ for everlasting life? 
 
 ---
 
-## What’s next?
+## Growing in Your New Life
 
-Salvation is complete the moment you believe. From there, you can grow in your understanding and walk with Christ. Here are some simple ways to begin...
+Salvation is **finished and secured** the moment you believe. Your eternal destiny is settled. Now, as a child of God, you can begin to **grow in your understanding** of Him and your new life. Here are some simple steps to begin that journey:
 
-- **Read the Gospel of John.** This book of the Bible was written so that you could know you have everlasting life (1 John 5:13). Reading it will help you better understand who Jesus is, what He has done, and the promises He has given you.
+* **Read the Gospel of John.** This book of the Bible was specifically written so that you could **know** you have everlasting life (1 John 5:13). Reading it will help you better understand the free gift you have received. 
 
-  You can read online [here](https://www.kingjamesbibleonline.org/John-Chapter-1/).
+    You can read online [here](https://www.biblegateway.com/passage/?search=John%201&version=KJV).
 
-- **Talk to God in prayer.** You can now talk directly to God, who loves you as His own child. There are no special words to say. Just open your heart and talk to Him as you would a loving Father—with honesty and gratitude.
+* **Talk to God in prayer.** You are now His own child. You can talk directly to your loving Father—with honesty and gratitude.
 
-- **Find a church that teaches the Bible.** Look for a local church or fellowship that clearly and consistently teaches salvation as a free gift by grace through faith in Christ alone. Attending regularly will provide an environment for you to learn more about God and connect with other believers.
+* **Find a church that teaches the Bible.** Look for a local fellowship that clearly and consistently teaches salvation by grace through faith alone. This will provide an environment for you to learn more about God's Word.
 
-- **Be baptized and serve.** Baptism is a public picture of what has already happened in your heart. It is an outward testimony to others that you have died to your old life and have been raised to walk in new life with Christ. Serving others is a way to express your gratitude for what God has done, not a way to earn His favor.
+* **Follow in Baptism.** Baptism is a **public testimony** (an outward picture) of the new life you received when you believed. It is an act of **obedience** for a believer, not a requirement for salvation.
+
+* **Serve Out of Gratitude.** Serving others is simply a way to express your deep **gratitude** for the finished work of Christ, knowing it adds nothing to your secure salvation.
 
 ---
 
